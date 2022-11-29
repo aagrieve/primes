@@ -3,7 +3,7 @@ Counts primes using a bitblock array, multithreading, and outputs found primes
 -------------------------------------------------------------------------------------------------
 compile with:
 make
--------------------------------------------------------------------------------------------------
+
 run it at the command line with:
 
 -t#: number of threads
@@ -14,9 +14,9 @@ run it at the command line with:
 -------------------------------------------------------------------------------------------------
 recommended command:
 ./primesMT -t20 -u10000000 > tenMillion.txt
--------------------------------------------------------------------------------------------------
+
 fastest recorded for 1 billion was 9.86s using 30 threads
--------------------------------------------------------------------------------------------------
+
 the output function could certainly be improved to use multithreading and only printing when verbose mode
--------------------------------------------------------------------------------------------------
+
 generating primes is not as efficient as it could be
