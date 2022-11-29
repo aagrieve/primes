@@ -7,6 +7,7 @@ make
 run it at the command line with:
 
 -t#: number of threads
+'\n'
 -u#: the upper bound of primes to be found
 -h: help for more details
 -v: verbose mode which will print the primes
