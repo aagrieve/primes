@@ -1,6 +1,9 @@
 # primes
 Counts primes using a bitblock array, multithreading, and outputs found primes
 
+compile with:
+make
+
 run it at the command line with:
 -t#: number of threads
 -u#: the upper bound of primes to be found
@@ -12,4 +15,5 @@ recommended command:
 
 fastest recorded for 1 billion was 9.86s using 30 threads
 
-the output function could certainly be improved to use multithreading, and generating primes is not the most efficient method
+the output function could certainly be improved to use multithreading
+generating primes is not as efficient as it could be
