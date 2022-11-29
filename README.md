@@ -15,5 +15,6 @@ recommended command:
 
 fastest recorded for 1 billion was 9.86s using 30 threads
 
-the output function could certainly be improved to use multithreading
+the output function could certainly be improved to use multithreading and only printing when verbose mode
+
 generating primes is not as efficient as it could be
