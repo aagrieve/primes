@@ -1,9 +1,9 @@
 # primes
 Counts primes using a bitblock array, multithreading, and outputs found primes
-
+//
 compile with:
 make
-
+//
 run it at the command line with:
 
 -t#: number of threads
@@ -14,7 +14,7 @@ run it at the command line with:
 
 -v: verbose mode which will print the primes
 
-
+//
 recommended command:
 ./primesMT -t20 -u10000000 > tenMillion.txt
 
