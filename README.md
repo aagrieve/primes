@@ -5,10 +5,15 @@ compile with:
 make
 
 run it at the command line with:
+
 -t#: number of threads
+
 -u#: the upper bound of primes to be found
+
 -h: help for more details
+
 -v: verbose mode which will print the primes
+
 
 recommended command:
 ./primesMT -t20 -u10000000 > tenMillion.txt
